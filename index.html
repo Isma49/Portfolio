@@ -2,83 +2,383 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>Eterna - Professional bootstrap site template for corporate business</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Your page description here" />
+  <meta name="author" content="" />
 
-  <title>Coming Soon - Start Bootstrap Theme</title>
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/bootstrap-responsive.css" rel="stylesheet" />
+  <link href="css/flexslider.css" rel="stylesheet" />
+  <link href="css/prettyPhoto.css" rel="stylesheet" />
+  <link href="css/camera.css" rel="stylesheet" />
+  <link href="css/jquery.bxslider.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Theme skin -->
+  <link href="color/default.css" rel="stylesheet" />
 
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
+  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
+  <link rel="shortcut icon" href="ico/favicon.png" />
 
-  <!-- Custom styles for this template -->
-  <link href="css/coming-soon.min.css" rel="stylesheet">
-
+  <!-- =======================================================
+    Theme Name: Eterna
+    Theme URL: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
 </head>
 
 <body>
 
-  <div class="overlay"></div>
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="mp4/bg.mp4" type="video/mp4">
-  </video>
+  <div id="wrapper">
 
-  <div class="masthead">
-    <div class="masthead-bg"></div>
-    <div class="container h-100">
-      <div class="row h-100">
-        <div class="col-12 my-auto">
-          <div class="masthead-content text-white py-5 py-md-0">
-            <h1 class="mb-3">Coming Soon</h1>
-            <p class="mb-5">We're working hard to finish the development of this site. Our target launch date is
-              <strong>January 2019</strong>! Sign up for updates using the form below!</p>
-            <div class="input-group input-group-newsletter">
-              <input type="email" class="form-control" placeholder="Enter email..." aria-label="Enter email..." aria-describedby="basic-addon">
-              <div class="input-group-append">
-                <button class="btn btn-secondary" type="button">Notify Me!</button>
-              </div>
+
+    <!-- start header -->
+    <header>
+      <div class="top">
+        <div class="container">
+          <div class="row">
+            <div class="span6">
+              <p class="topcontact"><i class="icon-phone"></i> 0659241705</p>
+            </div>
+            <div class="span6">
+              <ul class="social-network">
+                <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-white"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Linkedin"><i class="icon-linkedin icon-white"></i></a></li>
+                <li><a href="#" data-placement="bottom" title="Google +"><i class="icon-google-plus icon-white"></i></a></li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      <div class="container">
+        <div class="row nomargin">
+          <div class="span4">
+            <div class="logo">
+              <a href="index.html"><img src="img/logo.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="span8">
+            <div class="navbar navbar-static-top">
+              <div class="navigation">
+                <nav>
+                  <ul class="nav topnav">
+                    <li class="dropdown active">
+                      <a href="index.html"><i class="icon-home"></i> Accueil <i class="icon-angle-down"></i></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="portfolio-4cols.html">Portfolio</a></li>
+                        <li><a href="contact.html">Me contacter </a></li>
+                        <li><a href="about.html">A propos</a></li>
+                      </ul>                    
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- end navigation -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- section featured -->
+    <section id="featured">
+
+      <!-- slideshow start here -->
+
+      <div class="camera_wrap" id="camera-slide">
+
+        <!-- slide 1 here -->
+        <div data-src="img/slides/camera/slide1/img1.jpg">
+          <div class="camera_caption fadeFromLeft">
+            <div class="container">
+              <div class="row">
+                <div class="span6">
+                  <h2 class="animated fadeInDown"><strong>Un réseau from scratch : <span class="colored">Netscratch</span></strong></h2>
+                  <p class="animated fadeInUp">Le projet consiste en la refonte complète de l&#39;infrastructure réseau des associations techniques du Groupe ESIEA. L’architecture a été repensée, segmentée, sécurisée et déployée. Des facilitées d&#39;administrations, telles que la supervision des équipements et des processus d’automatisations ont été également déployé.</p>
+                  <a href="#" class="btn btn-success btn-large animated fadeInUp">
+											<i class="icon-link"></i> En savoir plus
+										</a>
+                  <a href="#" class="btn btn-theme btn-large animated fadeInUp">
+											<i class="icon-download"></i> Télecharger
+										</a>
+                </div>
+                <div class="span6">
+                  <img src="" alt="" class="animated bounceInDown delay1"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- slide 2 here -->
+        <div data-src="http://www.ufn.ca/wp-content/uploads/2019/08/landscape-mountains.jpg">
+          <div class="camera_caption fadeFromLeft">
+            <div class="container">
+              <div class="row">
+                <div class="span6">
+                  <img style="margin-top: -11%" src="img/slides/camera/slide2/img1.png" alt=""/>
+                </div>
+                <div class="span6">
+                  <h2 class="animated fadeInDown">Automatisation : <span class="colored">Inukshuk</span></h2>
+                  <p class="animated fadeInUp"> Inukshuk est un projet réseau, permettant l’industrialisation(l’automatisation) de la création et de la configuration de sous réseaux dynamique.</p>
+                  <a href="#" class="btn btn-success btn-large animated fadeInUp">
+                      <i class="icon-link"></i> En savoir plus
+                    </a>
+                  <a href="#" class="btn btn-theme btn-large animated fadeInUp">
+                      <i class="icon-download"></i> Télecharger
+                    </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- slide 3 here -->
+        <div data-src="img/slides/camera/slide2/img1.jpg">
+          <div class="camera_caption fadeFromLeft">
+            <div class="container">
+              <div class="row">
+                <div class="span6">
+                <div class="span12 aligncenter">
+                  <h2 class="animated fadeInDown"><strong><span class="colored">eLocation,</span> plateforme de  <span class="colored">location et vente</span> de matériels sportifs en ligne </strong></h2>
+                  <p class="animated fadeInUp"> php, javascript, mysql, html, css</p>
+                  <img style="margin-top: -2%; width:50%" src="img/slides/camera/slide3/img1.png" alt="" class="animated bounceInDown delay1" />
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- slideshow end here -->
+
+    </section>
+    <!-- /section featured -->
+
+    <section id="content">
+      <div class="container">
+
+        <div class="row">
+        </div>
+
+        <div class="row">
+          <div class="span12">
+            <div class="row">
+              <div class="span4">
+                <div class="box flyLeft">
+                  <div class="icon">
+                    <i class="ico icon-circled icon-bgdark icon-star icon-3x"></i>
+                  </div>
+                  <div class="text">
+                    <h4>Formation <strong>Humaine</strong></h4>
+                    <p>
+                      Sens de la communication, leadership, esprit d’initiative, analyse des risques… 
+                    </p>
+                    <a href="#">En savoir plus</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <div class="box flyIn">
+                  <div class="icon">
+                <i class="icon-circled icon-bgsuccess icon-cloud icon-4x"></i>
+                  </div>
+                  <div class="text">
+                    <h4>Maitrise <strong>Réseaux</strong></h4>
+                    <p>
+                      Conception et développement de solutions d'administration réseaux.
+                    </p>
+                    <a href="#">En savoir plus</a>
+                  </div>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="box flyRight">
+                  <div class="icon">
+                    <i class="ico icon-circled icon-bgdark icon-laptop active icon-3x"></i>
+                  </div>
+                  <div class="text">
+                    <h4>Maitrise <strong>Système</strong></h4>
+                    <p>
+                      Debian, Ubuntu, Kali, Ubuntu Server, Windows, Windows Server, MacOSX.
+                    </p>
+                    <a href="#">En savoir plus</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="span4">
+                <div class="box flyLeft">
+                  <div class="icon">
+                    <i class="ico icon-circled icon-bgprimary icon-code icon-3x"></i>
+                  </div>
+                  <div class="text">
+                    <h4>Programmation <strong>Web</strong></h4>
+                    <p>
+                      Réalisation de sites web dynamiques mettant en oeuvre une base de données en PHP/MySQL sous Windows/Linux
+                    </p>
+                    <a href="#">En savoir plus</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="span4">
+                <div class="box flyIn">
+                  <div class="icon">
+                    <i class="ico icon-circled icon-bgdanger icon-cut icon-3x"></i>
+                  </div>
+                  <div class="text">
+                    <h4>Maitrise <strong>Devops</strong></h4>
+                    <p>
+                      Integration continue, automatisation de taches réseaux, développement d'application web de maintenance et d'administration réseau.
+                    </p>
+                    <a href="#">En savoir plus</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="span12">
+            <div class="solidline"></div>
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="span12 aligncenter">
+            <h3 class="title">Et eux ? Que <strong>pensent</strong> ils de moi ?</h3>
+            <div class="blankline30"></div>
+
+            <ul class="bxslider">
+              <li>
+                <blockquote>
+                  Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis feugiat.Suspendisse eu erat quam. Vivamus porttitor eros quis nisi lacinia sed interdum lorem vulputate. Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis
+                  feugiat
+                </blockquote>
+                <div class="testimonial-autor">
+                  <img src="img/dummies/testimonial/1.png" alt="" />
+                  <h4>Hillary Doe</h4>
+                  <a href="#">www.companyname.com</a>
+                </div>
+              </li>
+              <li>
+                <blockquote>
+                  Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis feugiat.Suspendisse eu erat quam. Vivamus porttitor eros quis nisi lacinia sed interdum lorem vulputate. Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis
+                  feugiat
+                </blockquote>
+                <div class="testimonial-autor">
+                  <img src="img/dummies/testimonial/2.png" alt="" />
+                  <h4>Michael Doe</h4>
+                  <a href="#">www.companyname.com</a>
+                </div>
+              </li>
+              <li>
+                <blockquote>
+                  Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis feugiat.Suspendisse eu erat quam. Vivamus porttitor eros quis nisi lacinia sed interdum lorem vulputate. Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis
+                  feugiat
+                </blockquote>
+                <div class="testimonial-autor">
+                  <img src="img/dummies/testimonial/3.png" alt="" />
+                  <h4>Mark Donovan</h4>
+                  <a href="#">www.companyname.com</a>
+                </div>
+              </li>
+              <li>
+                <blockquote>
+                  Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis feugiat.Suspendisse eu erat quam. Vivamus porttitor eros quis nisi lacinia sed interdum lorem vulputate. Aliquam a orci quis nisi sagittis sagittis. Etiam adipiscing, justo quis
+                  feugiat
+                </blockquote>
+                <div class="testimonial-autor">
+                  <img src="img/dummies/testimonial/4.png" alt="" />
+                  <h4>Marry Doe Elliot</h4>
+                  <a href="#">www.companyname.com</a>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="span4">
+            <div class="widget">
+              <h5 class="widgetheading">Contactez moi</h5>
+              <p>
+                <i class="icon-phone"></i> 0659241705 <br>
+                <i class="icon-envelope-alt"></i> nimzil@intechinfo.fr
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="span6">
+              <div class="copyright">
+              <address>
+              <strong>Paris, 94800.</strong><br>
+              près de Villejuif, Louis Aragon
+            </address>              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
+  <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bglight icon-2x active"></i></a>
 
-  <div class="social-icons">
-    <ul class="list-unstyled text-center mb-0">
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-      </li>
-      <li class="list-unstyled-item">
-        <a href="#">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
+  <!-- javascript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/bootstrap.js"></script>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/toucheffects.js"></script>
+  <script src="js/google-code-prettify/prettify.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+  <script src="js/camera/camera.js"></script>
+  <script src="js/camera/setting.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/coming-soon.min.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script>
+  <script src="js/portfolio/jquery.quicksand.js"></script>
+  <script src="js/portfolio/setting.js"></script>
+
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/animate.js"></script>
+  <script src="js/inview.js"></script>
+
+  <!-- Template Custom JavaScript File -->
+  <script src="js/custom.js"></script>
+
+
 
 </body>
 
 </html>
-
